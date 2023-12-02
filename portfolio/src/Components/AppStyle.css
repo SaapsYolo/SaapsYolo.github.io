@@ -1,0 +1,138 @@
+*{
+    margin-left: 0rem;
+    background-color: #363636;
+    background-image: url('Assets/grid.jpg');
+    background-attachment: fixed;
+    background-size: cover;
+    
+}
+html{
+    scroll-behavior: smooth;
+}
+/* Navigation */
+.navbar{
+    margin-left: 5rem ;
+    justify-items: center;
+    width: 90%;
+}
+.navbar .logo{
+    color: blueviolet;
+}
+.nav{
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    font-weight: 700;
+}
+.nav a{
+    font-style: none;
+    text-decoration: none;
+    color: #f0f0f0;
+    transition: all .5s ease-out ;
+    cursor: pointer;
+
+}
+.nav a:hover{
+    transform: scale(1.5s);
+    color: blueviolet;
+    text-decoration: underline 2px;
+}
+.nav .contact-me a{
+    color: blueviolet;
+}
+/* About */
+.hero{
+    justify-content: center;
+    margin-top: 5rem;
+    margin-left: 5rem;
+    align-items: center;
+}
+
+.about-section{
+    margin: 0 0 0 7rem ;
+    color: #f0f0f0;
+}
+.hero-content{
+    display: inline-flex;
+    align-items: center;
+}
+.left-container{
+    padding: 3rem;
+    transition: all 1.5s ease-in-out;
+    transform: all scale(2);
+}
+.left-container img{
+    height: 20rem;
+    background-color: blue;
+    border-radius: 50px;
+    box-shadow: rgba(72, 135, 202, 0.8) 0 0 90px 33px;
+
+    border: 2px rgb(255, 255, 255) solid;
+    
+}
+.right-container{
+    width: 50rem;
+    height: 50vh;
+    background: linear-gradient(to right,blueviolet, purple);
+    border: #f0f0f0 2px solid;
+    border-radius: 10px;
+    transition: ease-in;
+    overflow-y: auto;
+}
+.hero .right-container h1, h3{
+    color: #f0f0f0;
+    /* background-color: transparent; */
+    transition: ease-in;
+    background: transparent;
+    
+    
+
+
+
+
+}
+
+.underline{
+    margin-left: 9rem;
+    margin-top: 0rem;
+    width: 61px;
+    height: 6px;
+    background: #3c009d;
+    border-radius: 9px;
+}  
+
+/* Projects */
+.projects{
+    margin: 10rem 0 0 12rem ;
+    color: #f0f0f0;
+    padding-bottom: 5rem;
+}
+.projects h2{
+    font-size: 20px;
+    color: blueviolet;
+}
+.projects h3, i{
+    font-size: 16px;
+    
+}
+.projects i{
+    color: #f0f0f0;
+    font-weight: 700;
+}
+
+
+.projects img{
+    width: auto;
+    height: 70vh;
+    border-radius: 10px;
+    border: #f0f0f0 2px solid;
+}
+
+.contact-me-section{
+    margin-left: 0rem;
+    padding: 3rem;
+    height: 50vh;
+    width: 100%;
+    color: blueviolet;
+    background: #f0f0f0;
+}
