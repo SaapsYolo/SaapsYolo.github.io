@@ -4,7 +4,6 @@
     background-image: url('Assets/grid.jpg');
     background-attachment: fixed;
     background-size: cover;
-    
 }
 html{
     scroll-behavior: smooth;
@@ -14,9 +13,16 @@ html{
     margin-left: 5rem ;
     justify-items: center;
     width: 90%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.drop_downmenu{
+    display: none;
 }
 .navbar .logo{
     color: blueviolet;
+    font-size: 1rem;
 }
 .nav{
     display: flex;
@@ -46,6 +52,8 @@ html{
     margin-top: 5rem;
     margin-left: 5rem;
     align-items: center;
+    margin-inline: auto;
+
 }
 
 .about-section{
@@ -54,7 +62,9 @@ html{
 }
 .hero-content{
     display: inline-flex;
-    align-items: center;
+    /* align-items: center; */
+    width: min(90%, 1080px);
+    
 }
 .left-container{
     padding: 3rem;
@@ -71,15 +81,17 @@ html{
     
 }
 .right-container{
-    width: 50rem;
-    height: 50vh;
+    width: 500vw;
+    min-width: 50px;
+    padding: 15px;
+    height: auto;
     background: linear-gradient(to right,blueviolet, purple);
     border: #f0f0f0 2px solid;
     border-radius: 10px;
     transition: ease-in;
     overflow-y: auto;
 }
-.hero .right-container h1, h3{
+.hero .right-container h1, p{
     color: #f0f0f0;
     /* background-color: transparent; */
     transition: ease-in;
@@ -106,10 +118,14 @@ html{
     margin: 10rem 0 0 12rem ;
     color: #f0f0f0;
     padding-bottom: 5rem;
+    margin-inline: auto;
+    width: min(90%, 1000px);
+
 }
 .projects h2{
     font-size: 20px;
     color: blueviolet;
+
 }
 .projects h3, i{
     font-size: 16px;
@@ -123,16 +139,130 @@ html{
 
 .projects img{
     width: auto;
-    height: 70vh;
+    height: max(70vh);
+    min-height: 30vh;
     border-radius: 10px;
     border: #f0f0f0 2px solid;
 }
 
+/* contact me */
 .contact-me-section{
     margin-left: 0rem;
     padding: 3rem;
-    height: 50vh;
-    width: 100%;
+    height: 5rem;
+    width: screen;
     color: blueviolet;
     background: #f0f0f0;
 }
+
+@media (max-width: 1400px){
+    .projects img{
+        width: auto;
+        height: max(60vh);
+        border-radius: 10px;
+        border: #f0f0f0 2px solid;
+    }
+        
+    }
+    
+    @media (max-width: 1024px){
+        .projects img{
+            width: auto;
+            height: max(37vh);
+            border-radius: 10px;
+            border: #f0f0f0 2px solid;
+        }
+    }
+
+    @media(max-width:890px){
+        .left-container img{
+            height: 15rem;
+            width: auto;
+            background-color: blue;
+            border-radius: 50px;
+            box-shadow: rgba(72, 135, 202, 0.8) 0 0 90px 33px;
+        
+            border: 2px rgb(255, 255, 255) solid;
+            
+        }
+        .projects img{
+            width: auto;
+            height: max(26vh);
+            border-radius: 10px;
+            border: #f0f0f0 2px solid;
+        }
+        
+    }
+    
+    @media(max-width:600px){
+        .left-container img{
+            height: 18rem;
+            width: auto;
+            background-color: blue;
+            border-radius: 50px;
+            box-shadow: rgba(72, 135, 202, 0.8) 0 0 90px 33px;
+        
+            border: 2px rgb(255, 255, 255) solid;
+            
+        }
+        .hero-content{
+            display: block;
+            width: min(90%, 1000px);
+        }
+        .right-container{
+            width: 100vw;
+            margin-left: 20px;
+            padding: 15px;
+
+            height: auto;
+            /* background: linear-gradient(to right,blueviolet, purple); */
+            /* border: #f0f0f0 2px solid; */
+            border-radius: 10px;
+            transition: ease-in;
+            overflow-y: auto;
+        }
+        .projects img{
+            width: auto;
+            height: max(30vh);
+            border-radius: 10px;
+            border: #f0f0f0 2px solid;
+        }
+        
+    }
+
+    /* menu bars */
+    @media(max-width: 650px){
+        .nav{
+            display: none;
+        }
+        .drop_downmenu, a{
+            display: grid;
+            gap: 0.5px;
+            margin-right: 15px;
+            padding: 2px;
+            font-size: 18px;
+            color: #f0f0f0;
+            text-decoration: none;
+            cursor: pointer;
+        }
+    }
+
+    @media(max-width: 549px){
+        .right-container{
+            width: 105vw;
+        }
+    }
+    
+    @media(max-width: 420px){
+        .left-container img{
+            height: 150px;
+        }
+        .right-container{
+            width: 80vw;
+        }
+        .projects img{
+            height: 5vh;
+        }
+    }
+
+    

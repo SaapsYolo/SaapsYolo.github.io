@@ -14,7 +14,7 @@ const Hero = () => {
             </div>
             <div className="right-container">
                 <h1>I am a..</h1>
-                <h3>
+                <p>
                     very passionate young developer who is
                     excited and ready to learn about new technologies.
                     I am always looking for opportunities to improve my skills<br /><br />
@@ -29,7 +29,7 @@ const Hero = () => {
                     learning CSS & JavaScript to use React as a framework
                     for Web Development, and so far the journey is amazing.
 
-                </h3>
+                </p>
             </div>
             </div>
            
