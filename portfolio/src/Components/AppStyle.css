@@ -1,7 +1,7 @@
 *{
     margin-left: 0rem;
     background-color: #363636;
-    background-image: url('Assets/grid.jpg');
+    /* background-image: url('Assets/grid.jpg'); */
     background-attachment: fixed;
     background-size: cover;
 }
@@ -146,13 +146,35 @@ html{
 }
 
 /* contact me */
-.contact-me-section{
+.contact-me-section {
     margin-left: 0rem;
-    padding: 3rem;
-    height: 5rem;
+    padding: 1.5rem;
+    height: 30vh;
     width: screen;
     color: blueviolet;
     background: #f0f0f0;
+    align-items: center;
+    justify-content: center;
+}
+.contact-me-section p{
+    color: #333;
+    font-weight: 600;
+}
+.socials{
+    background-color: #f0f0f0;
+    background: #f0f0f0;
+}
+.email, .linkedIn, .twitter, .gitHub{
+    gap: .5rem;
+    height: 40px;
+    font-size: 1.5rem;
+    background-color: #f0f0f0;
+    cursor: pointer;
+
+}
+.email h2, .linkedIn h2, .twitter h2, .gitHub h2{
+    font-size: 1rem;
+    background-color: #f0f0f0;
 }
 
 @media (max-width: 1400px){

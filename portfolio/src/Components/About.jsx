@@ -1,7 +1,11 @@
 import React from 'react'
 import heroImage from '../Components/Assets/selfie.jpg'
+import { FaBeer } from 'react-icons/fa';
+
 
 const Hero = () => {
+    
+
     return (
         <div className="hero" id='About'>
             <div className="about-section">

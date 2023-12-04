@@ -1,6 +1,7 @@
 import React from 'react'
 import About from './About'
 import Projects from './Projects'
+import { MdArrowOutward } from "react-icons/md";
 
 
 
@@ -17,7 +18,7 @@ const Nav = () => {
                 <a href='#About' >About</a>
                 <a href='#Projects' >Projects</a>
                 <div className="contact-me">
-                    <a href="#Contact-me">Contact Me</a>
+                    <a href="#Contact-me">Contact Me <MdArrowOutward /></a>
                 </div>
                 <div className="toggle_btn">
                     <i class="fa fa-bars"></i>
