@@ -149,7 +149,7 @@ html{
 .contact-me-section {
     margin-left: 0rem;
     padding: 1.5rem;
-    height: 30vh;
+    height: 40vh;
     width: screen;
     color: blueviolet;
     background: #f0f0f0;
@@ -161,21 +161,27 @@ html{
     font-weight: 600;
 }
 .socials{
-    background-color: #f0f0f0;
     background: #f0f0f0;
-}
-.email, .linkedIn, .twitter, .gitHub{
-    gap: .5rem;
-    height: 40px;
-    font-size: 1.5rem;
-    background-color: #f0f0f0;
-    cursor: pointer;
+    font-size: 26px;
+    align-items: center;
+    display: contents;
+    gap: 2rem;
 
 }
-.email h2, .linkedIn h2, .twitter h2, .gitHub h2{
-    font-size: 1rem;
-    background-color: #f0f0f0;
+.socials .email, .socials .linkedIn, .socials .twitter, .socials .github{
+    display: flex;
+    align-items: center;
+    background: none;
+    gap: 1rem;
 }
+.socials h2{
+    background-color: transparent;
+    font-size: 20px;
+}
+.MdEmail{
+    background-color: transparent;
+}
+
 
 @media (max-width: 1400px){
     .projects img{

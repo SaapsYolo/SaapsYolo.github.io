@@ -17,13 +17,16 @@ const Contact = () => {
           <MdEmail /> <h2>siya.biyo.bongi@gmail.com</h2>
         </div>
         <div className="linkedIn">
-          <CiLinkedin /> <h2>Siyabulela Biyo</h2> 
+          <CiLinkedin /> <h2>Siyabulela Biyo</h2>
         </div>
+
         <div className="twitter">
           <FaXTwitter /> <h2>@SaapsYolo</h2>
+
         </div>
-        <div className="gitHub">
+        <div className="github">
           <FaGithub /> <h2>SaapsYolo</h2>
+
         </div>
 
       </div>
