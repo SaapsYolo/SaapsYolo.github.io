@@ -54,6 +54,7 @@ html{
     align-items: center;
     margin-inline: auto;
 
+    transition: all 1s ease-in-out;
 }
 
 .about-section{
@@ -121,14 +122,20 @@ html{
     margin-inline: auto;
     width: min(90%, 1000px);
 
+
+
 }
 .projects h2{
     font-size: 20px;
     color: blueviolet;
+    transition: all 1s ease-in-out;
+
 
 }
 .projects h3, i{
     font-size: 16px;
+    transition: all .5s ease-in-out;
+
     
 }
 .projects i{
@@ -143,6 +150,8 @@ html{
     min-height: 30vh;
     border-radius: 10px;
     border: #f0f0f0 2px solid;
+    transition: all 1.5s ease-in-out;
+
 }
 
 /* contact me */
