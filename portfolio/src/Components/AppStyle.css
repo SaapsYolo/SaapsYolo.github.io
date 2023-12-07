@@ -1,9 +1,10 @@
 *{
     margin-left: 0rem;
     background-color: #363636;
-    /* background-image: url('Assets/grid.jpg'); */
+    background-image: url('Assets/grid.jpg');
     background-attachment: fixed;
     background-size: cover;
+    width: screen;
 }
 html{
     scroll-behavior: smooth;
@@ -85,12 +86,14 @@ html{
     width: 500vw;
     min-width: 50px;
     padding: 15px;
-    height: auto;
+    height: 50vh;
     background: linear-gradient(to right,blueviolet, purple);
     border: #f0f0f0 2px solid;
     border-radius: 10px;
     transition: ease-in;
-    overflow-y: auto;
+    overflow-y: scroll;
+    scrollbar-width: thin;
+    scroll-behavior: smooth;
 }
 .hero .right-container h1, p{
     color: #f0f0f0;
@@ -224,6 +227,7 @@ html{
 .footer-content{
     width: screen;
     height: auto;
+    background: black;
     background-color: black;
     position: relative;
     text-align: center;
