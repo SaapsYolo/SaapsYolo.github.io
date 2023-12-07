@@ -13,22 +13,12 @@ const Contact = () => {
       </p>
 
       <div className="socials">
-        <div className="email">
-          <MdEmail /> <h2>siya.biyo.bongi@gmail.com</h2>
-        </div>
-        <div className="linkedIn">
-          <CiLinkedin /> <h2>Siyabulela Biyo</h2>
-        </div>
-
-        <div className="twitter">
-          <FaXTwitter /> <h2>@SaapsYolo</h2>
-
-        </div>
-        <div className="github">
-          <FaGithub /> <h2>SaapsYolo</h2>
-
-        </div>
-
+        <li>
+          <a href="mailto: siya.biyo.bongi@gmail.com"> <MdEmail/></a>
+          <a href="https://www.linkedin.com/in/siyabulela-biyo-a50b97206"><CiLinkedin/></a>
+          <a href="https://x.com/saapsyolo"><FaXTwitter/></a>
+          <a href="https://github.com/saapsyolo"><FaGithub/></a>
+        </li>
       </div>
 
     </div>
