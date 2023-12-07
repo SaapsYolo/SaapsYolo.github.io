@@ -183,7 +183,7 @@ html{
 .socials li{
     transition: all 1s;
     width: 100%;
-    gap: 2rem;
+    gap: 1.5rem;
     justify-content: center;
     background: none;
     list-style: none;
@@ -209,6 +209,9 @@ html{
 }
 .socials a:hover{
     color: #9357f5;
+    box-shadow: #3c009d 0 0 20px;
+    transition: all .2s ease-in-out;
+    transform: scale(1.2);
 }
 .socials h2{
     background-color: transparent;
