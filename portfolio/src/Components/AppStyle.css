@@ -158,7 +158,7 @@ html{
 .contact-me-section {
     margin-left: 0rem;
     padding: 1.5rem;
-    height: 25vh;
+    height: auto;
     width: screen;
     color: blueviolet;
     background: #f0f0f0;
@@ -220,8 +220,21 @@ html{
 .MdEmail{
     background-color: transparent;
 }
+/* Footer */
+.footer-content{
+    width: screen;
+    height: auto;
+    background-color: black;
+    position: relative;
+    text-align: center;
+    padding: 10px;
+}
+.footer-content p{
+    color: #f0f0f0;
 
+}
 
+/* Responsive design */
 @media (max-width: 1400px){
     .projects img{
         width: auto;

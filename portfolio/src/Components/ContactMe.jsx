@@ -9,7 +9,7 @@ const Contact = () => {
     <div className="contact-me-section" id='Contact-me'>
       <p>If you would like to get in touch, talk about job
         opportunity, project collaboration, or just to say hi.
-        You can reach me in any of these platforms
+        You can reach me in any of these platforms :)
       </p>
 
       <div className="socials">

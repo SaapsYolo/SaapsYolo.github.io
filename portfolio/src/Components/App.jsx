@@ -5,6 +5,7 @@ import Nav from './Nav'
 import About  from './About'
 import Projects from './Projects'
 import ContactMe from './ContactMe'
+import Footer from './footer'
 import Underline from './Underline'
 import Grid from '../Components/Assets/grid.jpg'
 
@@ -16,6 +17,7 @@ const App = () => {
       <About/>
       <Projects/>
       <ContactMe/>
+      <Footer/>
     </div>
     
     )
